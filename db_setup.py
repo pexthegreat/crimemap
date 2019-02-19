@@ -22,5 +22,5 @@ try:
 		)"""
 		cursor.execute(sql);
 		connection.commit()
-	finally:
-		connection.close()
+finally:
+	connection.close()
